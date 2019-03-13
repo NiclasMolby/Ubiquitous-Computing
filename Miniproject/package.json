@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
+  "scripts": {
+    "start-name-server": "node name-server",
+    "start-both": "node name-server && node booking-server"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "simple-json-filter": "^0.3.0"
